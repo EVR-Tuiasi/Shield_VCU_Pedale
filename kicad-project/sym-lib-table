@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pedale-lib")(type "KiCad")(uri "${KIPRJMOD}/pedale-lib.kicad_sym")(options "")(descr ""))
+  (lib (name "voltage-reg")(type "KiCad")(uri "${KIPRJMOD}/external/TLV76150DCYR/KiCad/TLV76150DCYR.kicad_sym")(options "")(descr ""))
+)
