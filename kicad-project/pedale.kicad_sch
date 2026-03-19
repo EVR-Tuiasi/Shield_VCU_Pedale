@@ -3722,6 +3722,12 @@
 		(uuid "71ad88f6-562f-49b8-9e24-9f2820523001")
 	)
 	(junction
+		(at 52.07 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72064ec9-397b-4c67-9ba8-80ec5be0adf4")
+	)
+	(junction
 		(at 92.71 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3804,10 +3810,6 @@
 	(no_connect
 		(at 210.82 96.52)
 		(uuid "09e0b35e-379d-48de-8421-044917a19dab")
-	)
-	(no_connect
-		(at 210.82 104.14)
-		(uuid "0ae2eb73-705b-4060-bde4-52e096140dd5")
 	)
 	(no_connect
 		(at 180.34 93.98)
@@ -3932,10 +3934,6 @@
 	(no_connect
 		(at 246.38 102.87)
 		(uuid "5c4b8207-fcec-41c4-8008-29e071fc2c10")
-	)
-	(no_connect
-		(at 210.82 106.68)
-		(uuid "5c91180d-8d0b-4822-9ba6-d193c8e38523")
 	)
 	(no_connect
 		(at 222.25 72.39)
@@ -4199,7 +4197,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 43.18) (xy 156.21 45.72)
+			(xy 163.83 43.18) (xy 166.37 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4259,7 +4257,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 45.72) (xy 156.21 43.18)
+			(xy 163.83 45.72) (xy 166.37 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4269,7 +4267,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 48.26) (xy 52.07 59.69)
+			(xy 52.07 48.26) (xy 52.07 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4349,7 +4347,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 43.18) (xy 153.67 43.18)
+			(xy 144.78 43.18) (xy 163.83 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4396,6 +4394,16 @@
 			(type default)
 		)
 		(uuid "41da4e6f-1d29-4fb2-ad7c-daee66f7b03c")
+	)
+	(wire
+		(pts
+			(xy 93.98 59.69) (xy 95.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "445a4354-02dd-4a9a-9335-ce9de082ea42")
 	)
 	(wire
 		(pts
@@ -4459,7 +4467,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 45.72) (xy 153.67 45.72)
+			(xy 144.78 45.72) (xy 163.83 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4569,6 +4577,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 53.34) (xy 52.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b08eb1c-1879-46f8-8f95-6cdacc28c4a4")
+	)
+	(wire
+		(pts
 			(xy 52.07 97.79) (xy 52.07 116.84)
 		)
 		(stroke
@@ -4586,6 +4604,16 @@
 			(type default)
 		)
 		(uuid "7b6fc6cd-4ccb-48a9-a49d-eee5df6d0343")
+	)
+	(wire
+		(pts
+			(xy 95.25 59.69) (xy 95.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf307c9-6c33-4d2a-a2dd-832f45314333")
 	)
 	(wire
 		(pts
@@ -4929,6 +4957,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 83.82) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b45839-ade8-432e-ba24-8397dfd9bc1a")
+	)
+	(wire
+		(pts
+			(xy 95.25 57.15) (xy 96.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e743074b-25a4-4f1a-9ff2-4a1a6db7fc7c")
+	)
+	(wire
+		(pts
 			(xy 96.52 139.7) (xy 107.95 139.7)
 		)
 		(stroke
@@ -4996,6 +5044,118 @@
 			(type default)
 		)
 		(uuid "fccd319c-a416-4a8f-80af-9fc308e34477")
+	)
+	(wire
+		(pts
+			(xy 52.07 53.34) (xy 52.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffec4da0-64e9-4f03-ae0c-07a5abce357b")
+	)
+	(label "CAN_P"
+		(at 151.13 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01de978a-e8a2-4bd3-9926-ec33ea2f951a")
+	)
+	(label "5V_2"
+		(at 93.98 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24ea30ec-181f-4397-809b-66cb9d900831")
+	)
+	(label "5V_4"
+		(at 93.98 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3eb2cc7e-58d1-49c8-b509-0f6ea2063da4")
+	)
+	(label "GND"
+		(at 137.16 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40c6846b-9923-4955-8264-b8948104d06f")
+	)
+	(label "5V_3"
+		(at 93.98 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49f88458-6ca5-443d-9082-3ba85be7331c")
+	)
+	(label "5V_1"
+		(at 93.98 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0f8a355-3727-46d5-b51e-598abb569e93")
+	)
+	(label "CAN_N"
+		(at 151.13 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4177016-4d43-4598-9948-d3843828e8e2")
+	)
+	(label "5V_5"
+		(at 93.98 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff67751b-ac39-419f-a9a8-a47df4e8d945")
+	)
+	(global_label "12V"
+		(shape input)
+		(at 40.64 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0acd2dea-145b-4ac9-8329-bda611c3c0b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.1472 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5441,7 +5601,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 83.82 90)
+		(at 139.7 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5450,7 +5610,7 @@
 		(fields_autoplaced yes)
 		(uuid "152e7232-a310-4532-b40a-4c2405643289")
 		(property "Reference" "#PWR013"
-			(at 142.24 83.82 0)
+			(at 146.05 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5619,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 83.8199 90)
+			(at 143.51 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 83.82 0)
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 83.82 0)
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 83.82 0)
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,6 +5858,73 @@
 			(project "pedale"
 				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aee658b-0e87-452d-b906-149538eeb68d")
+		(property "Reference" "#PWR027"
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcf8da4b-975a-464c-843e-5495b18743c5")
+		)
+		(instances
+			(project "pedale"
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6460,7 +6687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal"
 			(at 101.6 133.35 0)
 			(effects
 				(font
@@ -6574,7 +6801,7 @@
 	)
 	(symbol
 		(lib_id "pedale-lib:Conn_CAN")
-		(at 161.29 44.45 0)
+		(at 171.45 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6582,7 +6809,7 @@
 		(dnp no)
 		(uuid "511f3dcd-4c86-4f45-b771-2f2544b2525e")
 		(property "Reference" "U8"
-			(at 170.18 44.1479 0)
+			(at 180.34 44.1479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,7 +6819,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 170.18 46.6879 0)
+			(at 180.34 46.6879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,8 +6827,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 161.29 44.45 0)
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal"
+			(at 171.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +6837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 44.45 0)
+			(at 171.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +6846,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 44.45 0)
+			(at 171.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal"
 			(at 101.6 57.15 0)
 			(effects
 				(font
@@ -7855,16 +8082,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 57.15 270)
+		(at 210.82 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "88f952dc-cf3f-4be1-9449-ec2f3cb3331a")
-		(property "Reference" "#PWR015"
-			(at 90.17 57.15 0)
+		(uuid "86be3d8c-9d11-431e-ae09-c31a6f0287d9")
+		(property "Reference" "#PWR028"
+			(at 217.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7873,7 +8100,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 57.1499 90)
+			(at 214.63 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7882,7 +8109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 57.15 0)
+			(at 210.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7891,7 +8118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 57.15 0)
+			(at 210.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,7 +8127,74 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 57.15 0)
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b89cc2f7-465f-4a97-a730-64c820327107")
+		)
+		(instances
+			(project "pedale"
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88f952dc-cf3f-4be1-9449-ec2f3cb3331a")
+		(property "Reference" "#PWR015"
+			(at 87.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +9081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -8999,7 +9293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal"
 			(at 53.34 43.18 0)
 			(effects
 				(font
@@ -9072,7 +9366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal"
 			(at 101.6 76.2 0)
 			(effects
 				(font
@@ -9483,7 +9777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal"
 			(at 101.6 114.3 0)
 			(effects
 				(font
