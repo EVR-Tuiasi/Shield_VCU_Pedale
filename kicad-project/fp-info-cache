@@ -1,4 +1,4 @@
-1773406679124
+3547662384337
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107904,6 +107904,13 @@ Varistor VF
 0
 2
 2
+pedale
+JST_PA_3
+Through hole angled socket strip, 1x03, 2.00mm pitch, 6.35mm socket length, single row (from Kicad 4.0.7), script generated
+Through hole angled socket strip THT 1x03 2.00mm single row
+0
+3
+3
 pedale
 SOT230P700X180-4N
 DCY (R-PDSO-G4)
