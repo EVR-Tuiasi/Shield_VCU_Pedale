@@ -5064,6 +5064,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "628040d4-666b-4ab3-ac87-29d09175b586")
 		(at 130 62 180)
@@ -5072,7 +5073,7 @@
 		(property "Reference" "U1"
 			(at -3.31 -2.5 180)
 			(layer "F.SilkS")
-			(uuid "cd830414-33b5-4ce5-afd6-a22458b787d6")
+			(uuid "a758a329-3655-40e1-9aeb-4505a63a0523")
 			(effects
 				(font
 					(size 1 1)
@@ -5083,7 +5084,7 @@
 		(property "Value" "~"
 			(at -3.31 4.5 180)
 			(layer "F.Fab")
-			(uuid "aff0de36-b31f-4efe-9c9a-c66fa2a059b6")
+			(uuid "7acc9626-d50d-47ec-a42f-2f48eeb76684")
 			(effects
 				(font
 					(size 1 1)
@@ -5095,7 +5096,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec80bff5-a337-4426-8535-045dd0fa02a9")
+			(uuid "50e1ff7d-ffdf-4583-ae8c-35f431034dc3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +5108,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cac13567-c210-4980-9e48-07f81157c0fc")
+			(uuid "be9512a2-ede7-49d7-9c0b-4b1bf8698795")
 			(effects
 				(font
 					(size 1.27 1.27)
