@@ -269,6 +269,263 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SS32"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS32"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20V 3A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS32_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS32_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "pedale-lib:Conn_CAN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3559,6 +3816,12 @@
 		(uuid "1159d945-43a4-4dd4-abf2-9bf7e09f571a")
 	)
 	(junction
+		(at 59.69 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13f1d0fc-c3fe-4b41-bdd0-6a9f54dd01c8")
+	)
+	(junction
 		(at 62.23 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3607,10 +3870,28 @@
 		(uuid "56147908-85f3-4dab-bdec-f53688bcbb70")
 	)
 	(junction
+		(at 88.9 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56c1a206-77fb-4ac9-bb6b-d33603a0514b")
+	)
+	(junction
 		(at 52.07 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59db20fe-d43c-4504-890e-8e2fa1c21f79")
+	)
+	(junction
+		(at 121.92 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d6e6891-9540-4b25-a5db-df2098ee3254")
+	)
+	(junction
+		(at 88.9 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5eaee932-15eb-4918-8928-87ceb51bf3c0")
 	)
 	(junction
 		(at 62.23 59.69)
@@ -3625,6 +3906,12 @@
 		(uuid "6cbae438-488d-439a-9e51-9f1dff27abce")
 	)
 	(junction
+		(at 52.07 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fc0c023-16ce-4ee4-b64b-724ff2a2bab4")
+	)
+	(junction
 		(at 92.71 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3635,6 +3922,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72064ec9-397b-4c67-9ba8-80ec5be0adf4")
+	)
+	(junction
+		(at 121.92 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "773f00ca-77fe-4fa6-b90b-73131fe506f1")
+	)
+	(junction
+		(at 88.9 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8511d35c-ee68-4dba-99d0-cf2aa090a4a3")
 	)
 	(junction
 		(at 92.71 127)
@@ -3659,6 +3958,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a54ab9ab-38ac-48f9-ab02-41b9d87af8d8")
+	)
+	(junction
+		(at 121.92 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a854a19e-f0c3-42cd-9409-0f382b8af3f2")
 	)
 	(junction
 		(at 62.23 135.89)
@@ -4238,6 +4543,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 44.45) (xy 52.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a8ba2b-87cf-4583-a170-95e48bec36dc")
+	)
+	(wire
+		(pts
 			(xy 58.42 107.95) (xy 92.71 107.95)
 		)
 		(stroke
@@ -4245,6 +4560,16 @@
 			(type default)
 		)
 		(uuid "361a7284-6fd7-4ebb-be32-e099c664d7db")
+	)
+	(wire
+		(pts
+			(xy 88.9 158.75) (xy 88.9 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373754ee-2a0a-4d40-83a2-49bb9754cc05")
 	)
 	(wire
 		(pts
@@ -4378,6 +4703,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 41.91) (xy 54.61 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5f82f8-0d9c-46e9-89a4-42dcf4f0fc7e")
+	)
+	(wire
+		(pts
 			(xy 123.19 64.77) (xy 125.73 64.77)
 		)
 		(stroke
@@ -4395,6 +4730,16 @@
 			(type default)
 		)
 		(uuid "5c38dc91-50ee-44c3-a445-d117f7557b54")
+	)
+	(wire
+		(pts
+			(xy 59.69 41.91) (xy 59.69 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2a03ed-4832-44cb-8dbf-bcc9c8f2baf5")
 	)
 	(wire
 		(pts
@@ -4455,6 +4800,16 @@
 			(type default)
 		)
 		(uuid "642e6994-5c27-4c38-8694-57676c21ea62")
+	)
+	(wire
+		(pts
+			(xy 121.92 166.37) (xy 121.92 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655a5190-f4c5-4925-9c30-43537ac6239b")
 	)
 	(wire
 		(pts
@@ -4548,6 +4903,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 153.67) (xy 88.9 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c866283-b862-4db6-840f-fff113558974")
+	)
+	(wire
+		(pts
+			(xy 62.23 41.91) (xy 59.69 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811b4a01-03e0-474a-ac63-4751cd96966b")
+	)
+	(wire
+		(pts
 			(xy 96.52 116.84) (xy 96.52 120.65)
 		)
 		(stroke
@@ -4605,6 +4980,16 @@
 			(type default)
 		)
 		(uuid "89d97b8b-6676-4d86-a2fb-7a7d0f215b1a")
+	)
+	(wire
+		(pts
+			(xy 121.92 160.02) (xy 121.92 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1e625c-d23b-4d16-8bcb-ad7134edf828")
 	)
 	(wire
 		(pts
@@ -4748,6 +5133,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 41.91) (xy 54.61 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b03ed30a-66dd-41a9-ba7a-0e2734f0b084")
+	)
+	(wire
+		(pts
 			(xy 92.71 73.66) (xy 96.52 73.66)
 		)
 		(stroke
@@ -4788,6 +5183,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 165.1) (xy 88.9 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b957c0c7-5e2d-47cd-ac6a-06c03f6f2585")
+	)
+	(wire
+		(pts
 			(xy 58.42 95.25) (xy 62.23 95.25)
 		)
 		(stroke
@@ -4825,6 +5230,16 @@
 			(type default)
 		)
 		(uuid "c942e7c8-8d49-4194-b3a3-9db116b636a3")
+	)
+	(wire
+		(pts
+			(xy 52.07 40.64) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ae292e-0377-418e-a846-5bc81f2b8b74")
 	)
 	(wire
 		(pts
@@ -4885,6 +5300,16 @@
 			(type default)
 		)
 		(uuid "e4cc36f8-53a7-487d-8797-5fcaeaa11fe6")
+	)
+	(wire
+		(pts
+			(xy 121.92 154.94) (xy 121.92 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9131f72-d6b6-422c-997a-74523f6e7677")
 	)
 	(wire
 		(pts
@@ -5251,6 +5676,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0936ba3f-3291-4d93-8f1a-47b360e1fed9")
+		(property "Reference" "#PWR028"
+			(at 82.55 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd52dc5d-d65c-4863-a423-3d086a83fd62")
+		)
+		(instances
+			(project "pedale"
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pedale-lib:Conn_J14")
 		(at 161.29 95.25 180)
 		(unit 1)
@@ -5426,6 +5918,73 @@
 			(project "pedale"
 				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 124.46 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e69c8da-9b64-4b12-97bb-af8f6cc4327b")
+		(property "Reference" "H4"
+			(at 128.27 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 128.27 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 124.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 124.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a617db79-7fd3-45bb-a748-70e3b4aef2c7")
+		)
+		(instances
+			(project "pedale"
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -5700,6 +6259,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 91.44 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18acbb11-984f-4461-a33a-ce5bbf3a72d2")
+		(property "Reference" "H5"
+			(at 95.25 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 95.25 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9822f06-4178-4c7b-a01d-8daa13a997bc")
+		)
+		(instances
+			(project "pedale"
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 121.92 0)
 		(unit 1)
@@ -5759,6 +6385,73 @@
 			(project "pedale"
 				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 91.44 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22c0d817-2e2f-4ff7-8887-1103dd260b09")
+		(property "Reference" "H8"
+			(at 95.25 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 95.25 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9dfcad9-b458-45b6-b004-e65827235081")
+		)
+		(instances
+			(project "pedale"
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -6355,6 +7048,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 91.44 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c1e7991-4224-4819-914f-ac5731abfffb")
+		(property "Reference" "H7"
+			(at 95.25 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 95.25 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 91.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 91.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59243550-0419-49a6-be4e-d541d00baa76")
+		)
+		(instances
+			(project "pedale"
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 96.52 133.35 270)
 		(unit 1)
@@ -6491,6 +7251,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 91.44 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43c4b080-a05f-45b7-a830-74d8ff28db87")
+		(property "Reference" "H6"
+			(at 95.25 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 95.25 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6baeafb4-b5fc-4838-a7be-dd059de902f4")
+		)
+		(instances
+			(project "pedale"
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pedale-lib:Conn_senzor-pozitie")
 		(at 101.6 133.35 0)
 		(unit 1)
@@ -6521,7 +7348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 101.6 133.35 0)
 			(effects
 				(font
@@ -6634,6 +7461,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 124.46 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "502c1043-ced6-47f1-8464-4ec15922405b")
+		(property "Reference" "H2"
+			(at 128.27 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 128.27 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 124.46 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 124.46 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ca470a2-48da-4226-9f10-1d922f3d2c72")
+		)
+		(instances
+			(project "pedale"
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pedale-lib:Conn_CAN")
 		(at 171.45 44.45 0)
 		(unit 1)
@@ -6661,7 +7555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 171.45 44.45 0)
 			(effects
 				(font
@@ -7321,7 +8215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 101.6 57.15 0)
 			(effects
 				(font
@@ -7573,6 +8467,73 @@
 			(project ""
 				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76dd6e6a-afcc-427f-a3b2-3596dbc0e353")
+		(property "Reference" "#PWR027"
+			(at 115.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4593c486-06ea-4ff3-afec-aec6ca9f5440")
+		)
+		(instances
+			(project "pedale"
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8713,7 +9674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -8896,7 +9857,7 @@
 	)
 	(symbol
 		(lib_id "pedale-lib:Conn_alimentare")
-		(at 53.34 43.18 90)
+		(at 53.34 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8905,7 +9866,7 @@
 		(fields_autoplaced yes)
 		(uuid "b186a927-e001-401b-9571-b1f73d0c7f74")
 		(property "Reference" "U1"
-			(at 53.0379 35.56 0)
+			(at 53.0379 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +9877,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 55.5779 35.56 0)
+			(at 55.5779 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,8 +9886,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal"
-			(at 53.34 43.18 0)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8935,7 +9896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 43.18 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8944,7 +9905,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 43.18 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8998,7 +9959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 101.6 76.2 0)
 			(effects
 				(font
@@ -9244,6 +10205,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 124.46 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c04095cd-d70b-4976-8375-5bf93515de89")
+		(property "Reference" "H1"
+			(at 128.27 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 128.27 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 124.46 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 124.46 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0124bc82-16a6-48b2-aeab-97afa1b74c97")
+		)
+		(instances
+			(project ""
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 132.08 83.82 90)
 		(unit 1)
@@ -9312,6 +10340,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS32")
+		(at 55.88 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c99a7e23-2544-4ffa-a5a0-bf7a18f098a3")
+		(property "Reference" "D1"
+			(at 55.5625 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS32"
+			(at 55.5625 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 55.88 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 3A Schottky Diode, SMA"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1aa8e97f-bea5-47c3-80ae-9b46e5134edc")
+		)
+		(pin "1"
+			(uuid "d422b7ce-5595-4a6a-965b-6995b1152d9d")
+		)
+		(instances
+			(project ""
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pedale-lib:Conn_senzor-pozitie")
 		(at 101.6 114.3 0)
 		(unit 1)
@@ -9342,7 +10438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 101.6 114.3 0)
 			(effects
 				(font
@@ -9887,7 +10983,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 48.26 0)
+		(at 62.23 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9896,7 +10992,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd11c474-5dac-4ba5-a1e0-ab5031630439")
 		(property "Reference" "#PWR01"
-			(at 54.61 54.61 0)
+			(at 68.58 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,15 +11001,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 53.34 0)
+			(at 66.04 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 48.26 0)
+			(at 62.23 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,7 +11019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 48.26 0)
+			(at 62.23 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,7 +11028,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 48.26 0)
+			(at 62.23 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,6 +11110,73 @@
 			(project "pedale"
 				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 124.46 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e42e0d54-2594-4a2b-9dd0-8a217dfb53d5")
+		(property "Reference" "H3"
+			(at 128.27 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 128.27 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ebbcd68-b2c5-45cd-af6d-e1281dc88dd9")
+		)
+		(instances
+			(project "pedale"
+				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
+					(reference "H3")
 					(unit 1)
 				)
 			)
