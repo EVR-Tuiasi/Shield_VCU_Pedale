@@ -1303,12 +1303,12 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "47611ebc-5a48-452d-a38a-362ffac67e6f")
-		(at 58.76 62.48 180)
+		(at 56.45 61.875 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "68750125-9452-4a47-aacb-076dca0c3c70")
+			(uuid "4082ca62-7d41-45b3-a6c2-da2552328793")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -1320,7 +1320,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e20973d3-64f9-46ef-bcf2-b6e471e04f66")
+			(uuid "da73f8d0-90f9-4fba-af95-d945fb3af981")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -1332,7 +1332,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28901bd3-27c2-4b12-be2c-f58a33900d13")
+			(uuid "1642dfd0-7b6b-4b7a-8eb4-c4711cb07137")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1343,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4930501e-64ac-463f-9791-f90f1dc501ed")
+			(uuid "8128c83e-6f1a-458b-91b0-10a4b59a438f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +3608,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at -0.1 -3.5 90)
+			(at -0.070001 -3.56 90)
 			(layer "F.Fab")
 			(uuid "6ff05fbd-5b6c-4eac-a7b5-52b1deee8244")
 			(effects
@@ -10407,7 +10407,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 72.491955 40.19) (xy 72.491956 53.970001) (xy 42.21 53.970001) (xy 42.21 40.19)
+			(xy 70.181955 39.585) (xy 70.181956 53.365001) (xy 39.9 53.365001) (xy 39.9 39.585)
 		)
 		(stroke
 			(width 0.1)
@@ -13447,8 +13447,8 @@
 		(uuid "dba9136a-ce25-41d9-abec-79cca4dad9e8")
 	)
 	(gr_rect
-		(start 42.228045 40.19)
-		(end 72.491955 44.44)
+		(start 39.918045 39.585)
+		(end 70.181955 43.835)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -27436,7 +27436,7 @@
 		(uuid "235bf144-4687-4cdd-8928-86a14d2eae20")
 	)
 	(gr_text "Release Date: 21/06/2026"
-		(at 71.865158 45.48 180)
+		(at 69.555158 44.875 180)
 		(layer "F.SilkS")
 		(uuid "8d06feec-c3ec-47ec-8dda-18b79ab7350e")
 		(effects
@@ -27448,7 +27448,7 @@
 		)
 	)
 	(gr_text "Layout:  -\nRevision: -"
-		(at 71.865159 49.95 180)
+		(at 69.555159 49.345 180)
 		(layer "F.SilkS")
 		(uuid "ce37d967-fdf5-4fb5-a9e3-5378c840e125")
 		(effects
@@ -27460,7 +27460,7 @@
 		)
 	)
 	(gr_text "Shield: VCU_ Pedale V1.0"
-		(at 71.865159 41.54 180)
+		(at 69.555159 40.935 180)
 		(layer "F.SilkS")
 		(uuid "080a9ad6-39aa-4172-adcc-8a422511a0d2")
 		(effects
