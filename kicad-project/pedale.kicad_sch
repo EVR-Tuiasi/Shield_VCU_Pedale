@@ -6773,7 +6773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_DuraClik_502352-0200_1x02-1MP_P2.00mm_Horizontal"
 			(at 171.45 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7873,7 +7873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_DuraClik_502352-0200_1x02-1MP_P2.00mm_Horizontal"
 			(at 171.45 52.07 0)
 			(hide yes)
 			(show_name no)
